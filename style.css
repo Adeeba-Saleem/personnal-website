@@ -1,0 +1,266 @@
+#name{
+	margin:0px; 
+	padding:17px 0px 0px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    color: #0000FF;
+}
+
+#home{
+	position:absolute;
+ width:128px;
+  top:20px;
+   left:20px;
+    border:1px dashed black;
+     background-color:#eee;
+      padding:10px;
+       z-index:2;
+
+}
+#home1{
+	color: #8B0000;
+}
+#name2{
+	margin:0px 0px 0px 0px;
+	padding:10px; 
+    text-align: right;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.about1{
+	
+position:relative;
+width:auto; 
+min-width:120px;
+margin:20px 210px 40px 220px;
+border:1px solid black;
+padding:10px;
+z-index:3; 
+background-color: black;
+font-weight: 50px;
+background-size: cover;
+color: #008000;
+font-size: bold;
+
+}
+.about2{
+	
+position:relative;
+width:auto; 
+min-width:120px;
+margin:20px 210px 40px 220px;
+border:1px solid black;
+padding:10px;
+z-index:3; 
+background-color: black;
+font-weight: bold;
+color:  #008000;
+}
+.about{
+	
+position:relative;
+ width:auto; 
+min-width:120px;
+margin:20px 210px 40px 220px;
+ border:1px solid black;
+ padding:10px;
+ z-index:3; 
+}
+#home2{
+position:absolute;
+width:128px;
+top:20px;
+left:20px;
+border:1px dashed black;
+background-color:#eee;
+padding:10px;
+z-index:2;
+}
+.service{
+position:relative;
+width:300px; 
+min-width:120px;
+margin:20px 210px 40px 300px;
+border:1px solid black;
+padding:10px;
+z-index:3; 
+text-align: center;
+background-color: black;
+font-weight: bold;
+color:  #008000;
+
+}
+.pop{
+position:relative;
+width:600px; 
+min-width:120px;
+margin:20px 210px 40px 300px;
+padding:10px;
+z-index:3; 
+text-align: right;
+font-weight: bold;
+color:  pink;
+font-style: italic;
+text-transform: uppercase;
+}
+.contact{
+position:relative;
+width:300px; 
+min-width:120px;
+margin:20px 210px 40px 350px;
+border:1px solid black;
+padding:10px;
+z-index:3; 
+background-color: black;
+font-weight: bold;
+color:  #008000;
+
+}
+.click{
+	position:absolute;
+	width:168px; 
+	top:242px;
+	left:800px;
+	border:1px solid black;
+	padding:10px; 
+	z-index:1;
+	background-color: black;
+    font-weight: bold;
+    color:  #008000;
+
+}
+.img{
+	background: url(double.jpg);
+	background-size: cover;
+	font-family: arial;
+
+}
+.jack{
+	width: auto;
+	height: auto;
+
+}
+.video{
+	position:absolute;
+	width:168px; 
+	top:242px;
+	bottom: 100px;
+	left:750px;
+	right: 150px;
+	padding:10px; 
+	z-index:1;
+    transition: transform .2s;
+
+}
+.video:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+   transform: scale(1.5); 
+}
+.net{
+	position:absolute;
+	width:168px; 
+	top:30px;
+	bottom: 100px;
+	left:750px;
+	right: 150px;
+	padding:10px; 
+	z-index:1;
+    transition: transform .2s;
+
+}
+.net:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+   transform: scale(1.5); 
+}
+.photo{
+	position:absolute;
+	width:168px; 
+	top:400px;
+	bottom: 100px;
+	left:750px;
+	right: 150px;
+	padding:10px; 
+	z-index:1;
+    transition: transform .2s;
+
+}
+.photo:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+   transform: scale(1.5); 
+}
+.hack{
+	background: url(video.jpeg);
+	background-size: cover;
+	
+}
+.wen{
+	background: url(not.jpg);
+	background-size: cover;
+}
+.wrapper{
+	width: 800px;
+	margin: 0 auto ;
+}
+.wrapper h5{
+	text-align: left;
+}
+.line{
+	height: 5px;
+	min-width: 300px;
+	margin: 0 auto 10px;
+	line-height: 15px;
+	font-size: 10px;
+	color: #fff;
+	padding: 0 0 0 10px;
+	position: relative;
+}
+.line:before{
+	width: 90%;
+	position: absolute;
+	left:0;
+	height: 25px;
+	top: 0;
+	z-index: -2;
+	background: #d2d6d7;
+}
+.line:after{
+	content: '';
+	background: #333;
+	height: 25px;
+	transition: 0.8s;
+	display: block;
+	width: 90%;
+	animation: animate 1 4s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+}
+.line1:after{
+	max-width: 90%;
+}
+.line2:after{
+	max-width: 45%;
+}
+.line3:after{
+	max-width: 30%;
+}
+.line4:after{
+	max-width: 75%;
+}
+@keyframes animate{
+	0%{
+		width: 0;
+	}
+	100%{
+		width: 100%;
+	}
+}
